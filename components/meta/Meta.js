@@ -1,9 +1,9 @@
 import Head from "next/head";
 
 export default function Meta({ title, keywords, description }) {
-    const homepage = "https://atsresume.vercel.app/";
-    const logo = "https://atsresume.vercel.app/assets/logo.png";
-    const fevicon = "https://atsresume.vercel.app/assets/favicon.ico";
+    const homepage = "";
+    const logo = "";
+    const fevicon = "";
 
     function isiteJsonLd() {
         return {
@@ -19,7 +19,7 @@ export default function Meta({ title, keywords, description }) {
                 },
                 "image": ${logo},
                 "description": ${description},
-                "founder": "Saurav Hathi",
+                "founder": "Ceausescu",
                 "foundingDate": "2023",
                 "foundingLocation": "IN",
                 "email": "xyz@gmail.com",
@@ -29,10 +29,10 @@ export default function Meta({ title, keywords, description }) {
                 "mainEntityOfPage": ${homepage},
                 "knowsAbout": ${keywords},
                 "knowsLanguage": "English",
-                "memberOf": "Saurav Hathi",
-                "owns": "Saurav Hathi",
+                "memberOf": "Ceausescu",
+                "owns": "Romania",
                 "publishingPrinciples": ${homepage},
-                "slogan": "Get hired with an ATS-optimized resume"
+                "slogan": "Get hired ..."
             }`
         }
     }
